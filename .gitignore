@@ -1,0 +1,33 @@
+# Local secrets
+.local/
+*.key.txt
+gh-token.txt
+nuget-api.key.txt
+
+# Child repositories are cloned beside this shell repo and are not tracked by the shell.
+packages/*
+tools/*
+npm/*
+event/*
+
+# Build/test output
+bin/
+obj/
+out/
+artifacts/
+.artifacts/
+TestResults/
+BenchmarkDotNet.Artifacts/
+coverage-report/
+.vs/
+
+# Node
+node_modules/
+dist/
+coverage/
+.vscode-test/
+
+# Runtime data
+data/
+*.log
+*.trx

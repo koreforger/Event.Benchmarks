@@ -1,0 +1,8 @@
+<Project>
+
+  <PropertyGroup>
+    <SolutionDir Condition="'$(SolutionDir)' == '' or '$(SolutionDir)' == '*Undefined*'">$(MSBuildThisFileDirectory)..\..\</SolutionDir>
+    <KFAppLifecycleDocsTargetRoot Condition="'$(KFAppLifecycleDocsTargetRoot)' == ''">$(MSBuildProjectDirectory)\artifacts\KoreForge.AppLifecycle\</KFAppLifecycleDocsTargetRoot>
+  </PropertyGroup>
+
+</Project>
