@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <SolutionDir Condition="'$(SolutionDir)' == '' or '$(SolutionDir)' == '*Undefined*'">$(MSBuildThisFileDirectory)..\..\</SolutionDir>
-    <KFAppLifecycleDocsTargetRoot Condition="'$(KFAppLifecycleDocsTargetRoot)' == ''">$(MSBuildProjectDirectory)\artifacts\KoreForge.AppLifecycle\</KFAppLifecycleDocsTargetRoot>
+    <KoreForgeAppLifecycleDocsTargetRoot Condition="'$(KoreForgeAppLifecycleDocsTargetRoot)' == ''">$(MSBuildProjectDirectory)\artifacts\KoreForge.AppLifecycle\</KoreForgeAppLifecycleDocsTargetRoot>
   </PropertyGroup>
 
 </Project>
